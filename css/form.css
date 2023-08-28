@@ -1,9 +1,8 @@
-.container{
+/* .container{
     width: 600px;
     margin: auto;
     height: 70vh;
- 
-}
+} */
 .container form{
     width:calc(100% - 100px);
     padding:2rem 2.5rem;
