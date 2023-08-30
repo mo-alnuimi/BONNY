@@ -64,6 +64,7 @@ section{
     }
     header{
         padding:2rem;
+        font-size: 60px;
     }
 }
 .heading{
@@ -199,7 +200,7 @@ header .navbar a:hover{
 }
 
 header .icons a{
-    font-size: 22px;
+    font-size: 40px;
     color:var(--pink);
     margin-left: 1.5rem;
 }
@@ -213,7 +214,7 @@ header #toggler{
 }
 
 header .fa-bars{
-    font-size: 24px;
+    font-size: 40px;
     color:var(--pink);
     border-radius: .5rem;
     padding:.5rem 1.5rem;
@@ -271,6 +272,7 @@ header .fa-bars{
 
 .about .row .video-container video{
     width:80%;
+    margin: auto;
     border:0.5rem solid var(--pink);
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -371,7 +373,8 @@ header .fa-bars{
 }
 .products .box-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
     gap:1.5rem;
     justify-content: space-around;
     position: relative;
