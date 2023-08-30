@@ -373,7 +373,6 @@ header .fa-bars{
 }
 .products .box-container{
     display: flex;
-    flex-wrap: nowrap;
     overflow-x: scroll;
     gap:1.5rem;
     justify-content: space-around;
